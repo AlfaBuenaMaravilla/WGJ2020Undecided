@@ -7,20 +7,10 @@ define en = Character("Envidia")
 define pz = Character("Pereza")
 define gu = Character("Gula")
 define ir = Character("Ira")
-define ga = Character("Un Gatito")
+define ga = Character("Una Gatita")
 define lu = Character("Lujuria")
 define so = Character("Soberbia")
 define fb = Character("Un extraño")
-
-
-# Transformations 
-transform adjustedleft:
-    xalign 0.25
-    yalign 0.80
-    zoom 0.5
-
-transform adjustedbg:
-    zoom 4
 
 # Game start
 
@@ -53,9 +43,7 @@ label perrito:
     pe "Bueno, a ver decime, querés seguir?"
 
     menu:
-
-        "Pienso un rato y le respondo"
-
+    
         "Sí, quiero seguir camino":
 
             hide perrito
@@ -160,25 +148,27 @@ label ira:
 
         "Sí, quiero seguir camino":
 
-            jump gatito
+            jump gatita
 
         "mmmm no, mejor no":
         
             jump finalabierto
 
-label gatito:
+label gatita:
+
+    show gatita at adjustedleft(0.25)
     
-    "Acá hablo con un gatito"
+    ga "Hola, yo soy una gatita"
+
+    ga "Querés venir conmigo?"
 
     menu:
 
-        "Pienso un rato y le respondo"
-
-        "Sí, quiero seguir camino":
+        "No, quiero seguir camino":
 
             jump lujuria
 
-        "mmmm no, mejor no":
+        "Bueno!":
         
             jump finalabierto
 
