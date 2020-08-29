@@ -1,129 +1,98 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+*.rpyc
+*.rpyb
+*.rpymc
+*.pyc
+*.pyo
 
-# C extensions
-*.so
+*~
+*.bak
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+saves
+tmp
+cache
+env
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+log.txt
+errors.txt
+traceback.txt
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+styles.txt
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
+/gui/game/gui
 
-# Translations
-*.mo
-*.pot
+/android
+/build
+/dist
+/dists
+/renpy.app
+/jedit
+/lint.txt
+/renpy.code
+/*testing*
+/screenshot*
+/renpy.exe
+/renpy.sh
+/lib
+/lib.old
+/lib2
+/lib3
+/doc
+/.pydevproject
+/.pydevproject.bak
+/.project
+/.cproject
+/.settings
+/LICENSE.txt
+/templates/english/README.html
+/the_question/README.html
+/tutorial/README.html
+/renpy/angle/*.pyx
+/renpy/angle/*.pxd
+/renpy-ppc.zip
+/module/build
+/module/gen*
+/editra
+/atom
+/launcher/game/theme
+/launcher/game/script_version.rpy
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
+/dl
+renpy/vc_version.py
+.externalToolBuilders
+/rapt
+/evil
+/iaptest
+/pygame_sdl2
+/renios
+/steam_appid.txt
+/.coverage
+/id
+/ai
+/interface_7
+/htmlcov
+/the_question*/.android.json
+/WINDOWS.rst
+/old
 
-# Flask stuff:
-instance/
-.webassets-cache
+/*-all/
+/*-win/
+/*-mac/
+/*-linux*/
+/*-dists/
+doc-web
 
-# Scrapy stuff:
-.scrapy
+sphinx/source/inc
+sphinx/source/thequestion.rst
+tutorial/game/tutorial_director.rpy
+launcher/theme
+module/emscripten-static/
+web/
 
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-.python-version
-
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
-
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
+cubism
+glexperiment
+live2d
+rapt2
+rapt3
+renios2
+renios3
+notarized
